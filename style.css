@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    padding-left: 967px;
+    padding-left: 
+}
+
+.link {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.link:hover {
+    background-color: #69bfe0;
+}
+
+#mainpic {
+    width: 200px;
+    padding-top:80px;
+}
+
+#Welcome {
+    height: 600px;
+    background: linear-gradient(#8fcbe3 0%, #65fcac 100%);
+}
+
+.line {
+    width: 70px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#arundhati-roy-pic {
+    width: 300px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+#jk-rowling-pic {
+    width: 300px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+#arundhati-roy-pic:hover {
+    transform: scale(0.9);
+}
+
+#jk-rowling-pic:hover {
+    transform: scale(0.9);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+    text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
